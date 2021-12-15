@@ -1,0 +1,38 @@
+Why we don't use local /personal  laptop/computer to host websites and testing framework;
+1- i have to keep my laptop up and running all the time
+2- Personal laptops /computers dont have enugh ram cpu power to entertain huge # of requests
+3- Internet connection are not that good
+4- Security is also a big problem when it comes to host services on local machines
+for these reasons we use server
+5- every one can easily access them through their personal laptops
+============================
+
+SDLC
+1-BA interact with client- discuss the requirements(BA develop the SRS document
+Software requirement specification
+2- then these document will be shared with Architects QA leads.
+Architects- design the whole project, what hardware, kind of language, how many classes, looks,
+--Architects design the software requirement documents(SRD) and QA start planning and testing
+
+4- once the SRDs are ready developers start working(coding) ad start building the application
+5-this is where the development life cycle starts
+
+DEVELOPER--
+developers makes the website/project and makes it available to the testers
+  1- (Story of developer)\\
+   --once the application is developed on local/personal computer/laptop by developers they ask other developers or archtects to review theri code
+   for any kind of mistakes and after that they push the code to git or
+       any other version control system then they
+       are deployed to the development server
+   or dev server so that we are sure they request the dev ops or IT team to deploy the application to hte development server(Dev)
+   so that they are sure application still works outside their laptops.
+
+   2-Qa will request dev ops or IT team to deploy it to the QA server, ( we dont test on dev server, to avoid messing with the basic code)
+   3- if every thing looks good all the test cases are passed QA will deploy it to the staging server
+   4-Staging servers are replicas of production servers so that we can test the application in as possible as same environmnet as production
+   -- if test cases fails QA will repost them to developer and whole cycles stars again
+
+
+
+
+
